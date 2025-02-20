@@ -18,11 +18,22 @@ class Program
 
         public void Deposit(int amount)
         {
+            if(amount <= 0)
+            {
+                Console.WriteLine("Input can't be negative!");
+                return;
+            }
             Balance += amount;
         }
 
         public void Withdraw(int amount)
         {
+            if(amount < 0)
+            {
+                Console.WriteLine("Input can't be negative!");
+                return;
+            }
+
             if(amount > Balance)
             {
                 Console.WriteLine("Insufficent funds");
@@ -124,7 +135,7 @@ class Program
                             }
 
                             char operation;
-                            Console.WriteLine("Select an operation");
+                            Console.WriteLine("\nSelect an operation");
 
                             do{
                                 Console.Write("Deposit(1), Withdraw(2), Display Balance(3): ");
@@ -145,7 +156,6 @@ class Program
                                 }
 
                                 bankAccounts[i].Deposit(amount);
-                                Console.WriteLine("Operation succeded!");
                             }
                             else if(operation == '2')
                             {

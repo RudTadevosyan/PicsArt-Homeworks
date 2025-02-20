@@ -55,13 +55,7 @@ class Program
             }while(string.IsNullOrEmpty(name));
 
 
-            float price;
-            Console.Write("Enter the price: ");
-            while(!float.TryParse(Console.ReadLine(), out price))
-            {
-                Console.WriteLine("Invalid input!");
-                Console.Write("Enter the price: ");
-            }
+            float price = random.Next(200, 2000);
 
             int quantity;
             Console.Write("Enter the quantity: ");
@@ -88,7 +82,7 @@ class Program
         }
 
         Console.WriteLine();
-        Console.WriteLine($"Total price: {totalPrice}");
+        Console.WriteLine($"Total price: {totalPrice} dram");
 
     }
 }

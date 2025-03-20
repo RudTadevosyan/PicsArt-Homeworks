@@ -4,7 +4,7 @@ class Program
 {
     public class BigInt
     {
-        private string _number;
+        private string _number = null!;
         private bool _signFlag = false;
         public int Length
         {
@@ -21,10 +21,20 @@ class Program
                 return;
             }
 
+
             if (number[0] == '-')
             {
                 _signFlag = true;
                 number = number.Substring(1);
+            }
+            
+            foreach (char n in number)
+            {
+                if (!char.IsDigit(n))
+                { 
+                    Console.WriteLine("Invalid number"); 
+                    Environment.Exit(0);
+                } 
             }
             
             number = number.TrimStart('0');
@@ -32,6 +42,7 @@ class Program
             
             _number = number;
         }
+
         public override string ToString() 
         {
             if (_signFlag)
@@ -41,7 +52,6 @@ class Program
             
             return _number;
         }
-        
         
         public static BigInt operator +(BigInt a, BigInt b)
                 {
@@ -214,7 +224,7 @@ class Program
 
             int maxLength = (aLength > bLength) ? aLength : bLength;
 
-            int finalNumberLength = maxLength + 1; // +1 for overload
+            int finalNumberLength = maxLength + 1; 
             char[] finalNumber = new char[finalNumberLength];
 
             int carry = 0;
@@ -318,7 +328,7 @@ class Program
 
         public override bool Equals(object? a)
         {
-            if(a == null) return false;
+            if(a is null) return false;
             return this == (BigInt)a;
         }
 

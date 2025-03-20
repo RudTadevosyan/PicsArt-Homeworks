@@ -81,7 +81,7 @@ public class Program
             return -1;
         }
 
-        public static int CaseInsensitiveComparer(MyString str1, MyString str2)
+        private static int CaseInsensitiveComparer(MyString str1, MyString str2)
         {
             if (str1.Length != str2.Length) return -1;
 
@@ -96,7 +96,7 @@ public class Program
             return 0;
         }
 
-        public static int IgnoreLeadingSpaceComparer(MyString str1, MyString str2)
+        private static int IgnoreLeadingSpaceComparer(MyString str1, MyString str2)
         {
             int index1 = 0;
             int index2 = 0;

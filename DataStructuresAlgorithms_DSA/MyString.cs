@@ -19,7 +19,6 @@ public class Program
         public char this[int index]
         {
             get => _string[index];
-            set => _string[index] = value;
         }
         
         public MyString()

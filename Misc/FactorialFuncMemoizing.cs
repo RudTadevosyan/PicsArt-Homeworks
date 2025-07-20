@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace FactorialFuncMemoizing;
+﻿namespace FactorialFuncMemoizing;
 
 class Program
 {
@@ -12,21 +10,21 @@ class Program
         A call to your original raw factorial logic when needed
         That new function (factorial code wrapped with cache logic) is returned and assigned to factorial */
         
-        Func<Func<int, int>, Func<int, int>> memoize = fn =>
+        Func<Func<int, long>, Func<int, long>> memoize = fn =>
         {
-            var cache = new Dictionary<int, int>();
+            var cache = new Dictionary<int, long>();
             return (int index) =>
             {
                 if(cache.ContainsKey(index)) return cache[index];
-                int result = fn(index);
+                long result = fn(index);
                 cache[index] = result;
                 return result;
             };
         };
         
-        Func<int, int> factorial = memoize( (int n) =>
+        Func<int, long> factorial = memoize( (int n) =>
         {
-            int result = 1;
+            long result = 1;
             for (int i = 2; i <= n; i++)
             {
                 result *= i;

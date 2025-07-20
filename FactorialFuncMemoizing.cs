@@ -6,6 +6,11 @@ class Program
 {
     static void Main()
     {
+        /* You pass the raw factorial code to memoize
+        memoize creates a new function that has:
+        Caching logic
+        A call to your original raw factorial logic when needed
+        That new function (factorial code wrapped with cache logic) is returned and assigned to factorial */
         
         Func<Func<int, int>, Func<int, int>> memoize = fn =>
         {

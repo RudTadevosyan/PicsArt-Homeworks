@@ -1,0 +1,11 @@
+C:\C#NET\WebASP\TodoAPI\TodoCore\bin\Debug\net8.0\TodoCore.deps.json
+C:\C#NET\WebASP\TodoAPI\TodoCore\bin\Debug\net8.0\TodoCore.dll
+C:\C#NET\WebASP\TodoAPI\TodoCore\bin\Debug\net8.0\TodoCore.pdb
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.AssemblyInfoInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.AssemblyInfo.cs
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.csproj.CoreCompileInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.dll
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\refint\TodoCore.dll
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\TodoCore.pdb
+C:\C#NET\WebASP\TodoAPI\TodoCore\obj\Debug\net8.0\ref\TodoCore.dll

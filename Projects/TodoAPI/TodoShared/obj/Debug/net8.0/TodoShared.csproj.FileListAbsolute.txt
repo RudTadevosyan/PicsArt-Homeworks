@@ -1,0 +1,11 @@
+C:\C#NET\WebASP\TodoAPI\TodoShared\bin\Debug\net8.0\TodoShared.deps.json
+C:\C#NET\WebASP\TodoAPI\TodoShared\bin\Debug\net8.0\TodoShared.dll
+C:\C#NET\WebASP\TodoAPI\TodoShared\bin\Debug\net8.0\TodoShared.pdb
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.AssemblyInfoInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.AssemblyInfo.cs
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.csproj.CoreCompileInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.dll
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\refint\TodoShared.dll
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\TodoShared.pdb
+C:\C#NET\WebASP\TodoAPI\TodoShared\obj\Debug\net8.0\ref\TodoShared.dll

@@ -1,0 +1,17 @@
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoDAL.deps.json
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoDAL.dll
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoDAL.pdb
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoCore.dll
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoShared.dll
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoCore.pdb
+C:\C#NET\WebASP\TodoAPI\TodoDAL\bin\Debug\net8.0\TodoShared.pdb
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.csproj.AssemblyReference.cache
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.AssemblyInfoInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.AssemblyInfo.cs
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.csproj.CoreCompileInputs.cache
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.csproj.Up2Date
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.dll
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\refint\TodoDAL.dll
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\TodoDAL.pdb
+C:\C#NET\WebASP\TodoAPI\TodoDAL\obj\Debug\net8.0\ref\TodoDAL.dll
